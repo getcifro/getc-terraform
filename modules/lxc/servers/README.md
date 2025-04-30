@@ -1,6 +1,6 @@
 # Telmate LXC Module
 
-## Requirements
+## Requirementos
 
 | Name        | Version  |
 | ----------- | -------- |
@@ -10,11 +10,11 @@
 
 | Name              | Version  |
 | ----------------- | -------- |
-| [telmate proxmox] | >= 2.9.0 |
+| [telmate proxmox] | >= 3.0.1-rc6 |
 
 ## Inputs
 
-### LXC Variables
+### LXC Variaveis
 
 | Variable            | Default     | Type    | Description                                                                                      | Required |
 | ------------------- | ----------- | ------- | ------------------------------------------------------------------------------------------------ | -------- |
@@ -50,7 +50,7 @@
 | dns_domain   | `null`  | String | Defaults to using PVE host setting                       | no       |
 | dns_server   | `null`  | String | Defaults to using PVE host setting                       | no       |
 
-### Mount Point Variables
+### Ponte de montagem Variables
 
 | Variable   | Default      | Type         | Description                                                              | Required |
 | ---------- | ------------ | ------------ | ------------------------------------------------------------------------ | -------- |
@@ -90,9 +90,4 @@ module "lxc_mountpoint_config" {
 | `id`          | Container ID          |
 | `mac_address` | Container MAC address |
 
-## Examples
 
-- [See example LXC configurations](../../examples/lxc/main.tf)
-
-[terraform]: https://github.com/hashicorp/terraform
-[telmate proxmox]: https://github.com/Telmate/terraform-provider-proxmox

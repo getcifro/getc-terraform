@@ -10,7 +10,7 @@
 
 | Name              | Version  |
 | ----------------- | -------- |
-| [telmate proxmox] | >= 2.9.0 |
+| [telmate proxmox] | >= 3.0.1-rc6 |
 
 ## Inputs
 
